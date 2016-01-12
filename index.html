@@ -40,11 +40,11 @@
       <body class="about-page">
       <div id="home-cover" style="position: absolute;width: 100%;height: 100%;left: 0;top:0;z-index: 9;background: url('img/启动画面.png') center black;"></div>
         <!-- Preloader -->
-        <div id="loader-wrapper">
+     <!--   <div id="loader-wrapper">
           <div id="loader"></div>
           <div class="loader-section section-left"></div>
           <div class="loader-section section-right"></div>
-        </div>
+        </div>-->
         <!-- End Preloader -->
         <section class="templatemo-top-section">
           <div class="templatemo-header">
@@ -87,7 +87,7 @@
                   <li>
                     <div class="about-slider">
                       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <img src="img/about/5.jpg" class="img-responsive center-block" alt="Image">
+                        <img src="img/about/5.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部活动" title="TEC引擎俱乐部活动">
                       </div>
                       <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                         <h2 class="text-uppercase welcome-title">
@@ -104,7 +104,7 @@
                   <li>
                     <div class="about-slider">
                       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <img src="img/about/6.jpg" class="img-responsive center-block" alt="Image">
+                        <img src="img/about/6.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部租赁" title="TEC引擎俱乐部租赁">
                       </div>
                       <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                         <h2 class="text-uppercase welcome-title">
@@ -119,7 +119,7 @@
                   <li>
                     <div class="about-slider">
                       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <img src="img/about/4.jpg" class="img-responsive center-block" alt="Image">
+                        <img src="img/about/4.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部改装" title="TEC引擎俱乐部改装">
                       </div>
                       <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                         <h2 class="text-uppercase welcome-title">
@@ -134,7 +134,7 @@
                   <li>
                     <div class="about-slider">
                       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <img src="img/about/2.jpg" class="img-responsive center-block" alt="Image">
+                        <img src="img/about/2.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
                       </div>
                       <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                         <h2 class="text-uppercase welcome-title">
@@ -152,7 +152,7 @@
                   <li>
                     <div class="about-slider">
                       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <img src="img/about/3.jpg" class="img-responsive center-block" alt="Image">
+                        <img src="img/about/3.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
                       </div>
                       <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                         <h2 class="text-uppercase welcome-title">
@@ -168,7 +168,7 @@
                   <li>
                     <div class="about-slider">
                       <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <img src="img/about/7.jpg" class="img-responsive center-block" alt="Image">
+                        <img src="img/about/7.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
                       </div>
                       <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                         <h2 class="text-uppercase welcome-title">
@@ -193,7 +193,6 @@
     <footer class="tm-footer">
       <div class="container">
             <div class="center-block text-center"><a href="http://weibo.com/13gydz?profile_ftype=1&is_all=1#_rnd1451270513481" target="_blank" class="btn btn-danger btn-myself"><img src="img/contact/微博图标.png"><span style="vertical-align:bottom;">TEC引擎俱乐部官方微博</span></a></div>
-
         <div class="row tm-copyright">
           <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2015 Company Name. More Templates <a href="#" target="_blank" title="TEC引擎俱乐部">TEC引擎俱乐部</a></p>
         </div>
@@ -202,17 +201,15 @@
     
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
-    <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
     <script defer src="js/jquery.flexslider-min.js"></script><!-- FlexSlider -->
     <script>
 
-      $(function(){
-        setTimeout(function(){
-          $('#home-cover').fadeOut(2500);
-        },2000);
-      });
-
       $(window).load(function() {
+
+        setTimeout(function(){
+          $('#home-cover').fadeOut(1500);
+        },1000);
+
         $('.flexslider').flexslider({
           animation: "slide",
           slideshow: true,
