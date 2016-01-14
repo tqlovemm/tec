@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="Keywords" content="TEC引擎俱乐部,TEC引擎豪车俱乐部,TEC,豪车俱乐部,超跑俱乐部,玛萨拉蒂车友会,法拉利车友会">
-  <meta name="Description" content="TEC引擎俱乐部是目前中国最神秘低调的豪车主题俱乐部，运营玛萨拉蒂、法拉利等品牌豪车车友会，并举办各种品质活动以及提供顶级生活方式服务。">
+  <meta name="Keywords" content="TEC引擎俱乐部,TEC引擎豪车俱乐部,TEC,豪车俱乐部,超跑俱乐部,玛莎拉蒂车友会,法拉利车友会">
+  <meta name="Description" content="TEC引擎俱乐部是目前中国最神秘低调的豪车主题俱乐部，运营玛莎拉蒂、法拉利等品牌豪车车友会，并举办各种品质活动以及提供顶级生活方式服务。">
   <title>TEC引擎俱乐部</title>
   <link rel="shortcut icon" href="img/favicon.ico">
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -111,7 +111,7 @@
           <div class="col-md-9 join-content">
 
             <ul class="list-unstyled">
-              <li><i class="glyphicon glyphicon-hand-right"></i><span>凡是持有合法身份证明的中国公民或外国合法身份的公民，并拥有至少一辆豪车（玛萨拉蒂、法拉利、兰博基尼、保时捷、阿斯顿·马丁、宾利、劳斯莱斯、迈巴赫、帕加尼、布加迪、柯尼塞格等），均可入会，特殊车型除外，（所有车辆需具有合法证明）。</span></li>
+              <li><i class="glyphicon glyphicon-hand-right"></i><span>凡是持有合法身份证明的中国公民或外国合法身份的公民，并拥有至少一辆豪车（玛莎拉蒂、法拉利、兰博基尼、保时捷、阿斯顿·马丁、宾利、劳斯莱斯、迈巴赫、帕加尼、布加迪、柯尼塞格等），均可入会，特殊车型除外，（所有车辆需具有合法证明）。</span></li>
               <li><i class="glyphicon glyphicon-hand-right"></i><span>TEC引擎俱乐部将会对会员个人信息、车辆信息进行详细登记管理。如发现不实信息，有权取消当事会员的会籍。</span></li>
               <li><i class="glyphicon glyphicon-hand-right"></i><span>每位TEC引擎俱乐部会员须严格遵守交通法律法规，文明驾驶，合法赛车。</span></li>
               <li><i class="glyphicon glyphicon-hand-right"></i><span>为了保证TEC引擎俱乐部会员品质及让每个会员都享受到同等服务，TEC引擎俱乐部在江浙沪地区只允许不超过800名会员加入，额满暨停止入会，直到有会员自动退出或特别规定。</span></li>
@@ -159,6 +159,17 @@
     <script defer src="js/jquery.flexslider-min.js"></script><!-- FlexSlider -->
     <script>
       $(window).load(function() {
+        setTimeout(function(){
+          $('.templatemo-nav').slideDown(500,function(){
+
+            setTimeout(function(){
+              $('.templatemo-nav').slideUp(500);
+            },500);
+
+          });
+        },500);
+
+
         $('.flexslider').flexslider({
           animation: "slide",
           slideshow: false,
