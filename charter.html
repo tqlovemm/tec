@@ -357,15 +357,18 @@
     <script defer src="js/jquery.flexslider-min.js"></script><!-- FlexSlider -->
     <script>
       $(window).load(function() {
-        setTimeout(function(){
-          $('.templatemo-nav').slideDown(500,function(){
+        if($(window).width()<768){
 
-            setTimeout(function(){
-              $('.templatemo-nav').slideUp(500);
-            },500);
+          setTimeout(function(){
+            $('.templatemo-nav').slideDown(500,function(){
 
-          });
-        },500);
+              setTimeout(function(){
+                $('.templatemo-nav').slideUp(500);
+              },500);
+
+            });
+          },300);
+        }
 
 
         $('.flexslider').flexslider({
