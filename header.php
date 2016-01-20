@@ -102,12 +102,7 @@
 .services-title-2{font-size: 14px;font-weight: normal;}
 .services-content{ background: rgba(255, 255, 255, 0.69);padding:30px 0;  }
 @media (max-width:768px) {
-    /*top start*/
-    .templatemo-welcome{padding:0;margin:0;}
-    .services-page .templatemo-welcome{padding:0;}
-    .templatemo-top-section{padding-bottom: 20px;}
 
-    /*top end*/
     .services-content, .services-block, .services-container-1{padding:5px;}
     .services-title-2{font-size: 14px;font-weight: 200;}
 }
