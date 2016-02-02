@@ -20,7 +20,14 @@
         </div>
     </div>
 </section>
-
+<?php
+    $a = date("w",strtotime("日期"));
+    if($a =="0" || $a=="6"){
+        $tel =  "18021245073";
+    }else{
+       $tel =  "0512-62747413";
+    }
+?>
 
 <!--Main content-->
 <section class="container margin-bottom-50">
@@ -30,8 +37,9 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-1 col-sm-5">
                 <ul class="list-unstyled contact-list">
-                    <li><span style="color:white;letter-spacing: 2.8px;">工作日热线</span>：<span>0512-62747413</span></li>
-                    <li>非工作日热线：<span>18021245073</span></li>
+                    <li><span style="letter-spacing: 11px;color:white;">会员热线</span>：<span><?php echo $tel?></span></li>
+                    <li>Service Hotline：<span><?php echo $tel?></span></li>
+
                     <br>
                     <li>入会邮箱：<span>1607962445@qq.com</span></li>
                     <li><span style="letter-spacing: .3px;color:white;">MailBox</span>：<span>1607962445@qq.com</span></li>
