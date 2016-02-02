@@ -131,8 +131,8 @@
                     <li><a <?php if($_SERVER['PHP_SELF']=='/index.php'){echo ' class="active" ';}?> href="index.php" title="首页">Home</a></li>
                     <li><a <?php if($_SERVER['PHP_SELF']=='/services.php'){echo ' class="active" ';}?> href="services.php" title="服务">SERVICE</a></li>
                     <li><a <?php if($_SERVER['PHP_SELF']=='/charter.php'){echo ' class="active" ';}?> href="charter.php" title="章程">CHARTER</a></li>
-                    <li><a <?php if($_SERVER['PHP_SELF']=='/join.php'){echo ' class="active" ';}?> href="join.php" title="加入">JOINUS</a></li>
-                    <li><a <?php if($_SERVER['PHP_SELF']=='/contact.php'){echo ' class="active" ';}?> href="contact.php" title="联系">CONTACT</a></li>
+                    <li><a <?php if($_SERVER['PHP_SELF']=='/join.php'){echo ' class="active" ';}?> href="join.php" title="加入我们">JOINUS</a></li>
+                    <li><a <?php if($_SERVER['PHP_SELF']=='/contact.php'){echo ' class="active" ';}?> href="contact.php" title="联系我们">CONTACT</a></li>
                 </ul>
             </nav>
         </div>

@@ -31,10 +31,10 @@
             <div class="col-md-4 col-md-offset-1 col-sm-5">
                 <ul class="list-unstyled contact-list">
                     <li><span style="color:white;letter-spacing: 2.8px;">工作日热线</span>：<span>0512-62747413</span></li>
-                    <li>非工作日热线：<span>0512-62747413</span></li>
+                    <li>非工作日热线：<span>18021245073</span></li>
                     <br>
-                    <li>入会邮箱：<span>8495167@qq.com</span></li>
-                    <li><span style="letter-spacing: .3px;color:white;">MailBox</span>：<span>8495167@qq.com</span></li>
+                    <li>入会邮箱：<span>1607962445@qq.com</span></li>
+                    <li><span style="letter-spacing: .3px;color:white;">MailBox</span>：<span>1607962445@qq.com</span></li>
                 </ul>
             </div>
             <div class="col-md-6  col-sm-7">
