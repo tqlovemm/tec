@@ -28,10 +28,10 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-md-offset-1 col-sm-5">
+            <div class="col-md-5 col-md-offset-1 col-sm-5">
                 <ul class="list-unstyled contact-list">
-                    <li><span style="letter-spacing: 11px;color:white;">会员热线</span>：<span><?php echo $tel?></span></li>
-                    <li>Service Hotline：<span><?php echo $tel?></span></li>
+                    <li><span style="color:white;letter-spacing: 11px;">服务热线</span>：<span><?= $tel?></span></li>
+                    <li>Service Hotline：<span><?= $tel?></span></li>
 
                     <br>
                     <li>入会邮箱：<span>1607962445@qq.com</span></li>
