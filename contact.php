@@ -38,13 +38,13 @@
                     <li><span style="letter-spacing: .3px;color:white;">MailBox</span>：<span>1607962445@qq.com</span></li>
                 </ul>
             </div>
-            <div class="col-md-6  col-sm-7">
+            <div class="col-md-7  col-sm-7">
                 <ul class="list-unstyled contact-list">
                     <li><span style="letter-spacing: 3px;color:white;">邮政编码</span>：<span>215000</span></li>
                     <li>Post Code：<span>215000</span></li>
                     <br>
                     <li>办公地址：<span>江苏省苏州工业园区海尚壹品110栋B-3#706室</span></li>
-                    <li><span style="letter-spacing: .3px;color:white;">Address</span>：<span>Room 110 B-3#706 of Jiangsu Province, Suzhou Industrial Park haishang</span></li>
+                    <li><span style="letter-spacing: .3px;color:white;">Address</span>：<span>Room 110 B-3#706 of Suzhou Industrial Park haishang</span></li>
                 </ul>
             </div>
         </div>
