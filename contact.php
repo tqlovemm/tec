@@ -20,14 +20,7 @@
         </div>
     </div>
 </section>
-<?php
-    $a = date("w",strtotime("日期"));
-    if($a =="0" || $a=="6"){
-        $tel =  "18021245073";
-    }else{
-       $tel =  "0512-62747413";
-    }
-?>
+
 
 <!--Main content-->
 <section class="container margin-bottom-50">
