@@ -22,6 +22,13 @@
     <![endif]-->
     <style>
 /*index*/
+        .contact-phone{width: 100%;height: 50px;background-color: rgba(97, 95, 95, 0.5);;overflow: hidden;;text-align: center;line-height: 50px;margin-top: 10px;margin-bottom: 0;margin-left: 0px;}
+        .contact-phone li{width: 49%;height: 100%;padding: 0;}
+        .contact-phone li:hover{background-color: #F4A819;}
+        .contact-phone li a{padding:15px 40px;text-decoration: none;color:white;}
+        .contact-phone li a:hover{color: white;}
+
+
             .fa{font-size: 24px !important;}
             body{background-color: #000000;}
             .btn-myself{background-color: #080606;box-shadow: 0 0 10px #000;padding:5px 10px 10px 10px;}
@@ -30,7 +37,7 @@
         @media (max-width: 768px) {
             .start-img{background: url('img/320x480.png') center black no-repeat;}
             .flexslider{ padding:0 10px; }
-            .about-page .templatemo-welcome {  margin-top: 40px;  padding-bottom: 0;  }
+            .about-page .templatemo-welcome {  margin-top: 10px;  padding-bottom: 0;  }
             .welcome-title-1,
             .about-page .welcome-title-2{font-size: 18px;text-align: center;}
             .flexslider .welcome-message{ line-height:1.5em;font-weight: 100;font-size: 13px;}
@@ -130,3 +137,8 @@
             </nav>
         </div>
     </div>
+
+    <ul class="list-inline contact-phone visible-sm visible-xs">
+        <li class="pull-left"><a href="tel://051262747413"><i class="glyphicon glyphicon-earphone"></i>   Phone</a></li>
+        <li class="pull-right"><a style="padding:15px 60px;" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1607962445&site=qq&menu=yes">QQ</a></li>
+    </ul>

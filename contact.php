@@ -30,8 +30,8 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-1 col-sm-5">
                 <ul class="list-unstyled contact-list">
-                    <li><span style="letter-spacing: 11px;color:white;">会员热线</span>：<span>0512-62747413</span></li>
-                    <li>Service Hotline：<span>0512-62747413</span></li>
+                    <li><span style="color:white;letter-spacing: 2.8px;">工作日热线</span>：<span>0512-62747413</span></li>
+                    <li>非工作日热线：<span>0512-62747413</span></li>
                     <br>
                     <li>入会邮箱：<span>8495167@qq.com</span></li>
                     <li><span style="letter-spacing: .3px;color:white;">MailBox</span>：<span>8495167@qq.com</span></li>
