@@ -3,7 +3,7 @@
     <div class="container">
         <div class="center-block text-center"><a href="http://weibo.com/13gydz?profile_ftype=1&is_all=1#_rnd1451270513481" target="_blank" class="btn btn-danger btn-myself"><img src="img/contact/微博图标.png"><span style="vertical-align:bottom;">TEC引擎俱乐部官方微博</span></a></div>
         <div class="row tm-copyright">
-            <p class="col-lg-12 small copyright-text text-center">Copyright &copy;<a href="#" target="_blank" title="TEC引擎俱乐部">TEC引擎俱乐部  版权所有</a></p>
+            <p class="col-lg-12 small copyright-text text-center"><a href="#" target="_blank" title="TEC引擎俱乐部">TEC引擎俱乐部   </a>苏州遇见文化传媒有限公司版权所有&copy;2015-<?=date('Y',time())?></p>
         </div>
     </div>
 </footer> <!-- Footer content-->
