@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <!--<li>
                             <div class="about-slider">
                                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                                     <img src="img/about/6.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部租赁" title="TEC引擎俱乐部租赁">
@@ -117,7 +117,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>
