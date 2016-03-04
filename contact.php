@@ -24,8 +24,9 @@
 
 <!--Main content-->
 <section class="container margin-bottom-50">
-    <div class="services-container-1 contact"></div>
-
+    <div class="services-container-1" style="padding:0;background-color: black;">
+        <img class="img-responsive" src="./img/contact/teccantactimg.png">
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-1 col-sm-5">
