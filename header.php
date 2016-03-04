@@ -32,7 +32,7 @@
             body{background-color: #000000;}
             .btn-myself{background-color: #080606;box-shadow: 0 0 10px #000;padding:5px 10px 10px 10px;}
             .btn-myself:hover{background-color: #1d1d1d;}
-            .start-img{position: absolute;width: 100%;height: 100%;left: 0;top:0;z-index: 9;background: url('img/启动画面.png') center black;}
+            .start-img{position: absolute;width: 100%;height: 100%;left: 0;top:0;z-index: 9;background: url('img/tecstratimg.jpg') center black;}
         @media (max-width: 768px) {
             .start-img{background: url('img/320x480.png') center black no-repeat;}
             .flexslider{ padding:0 10px; }
@@ -67,7 +67,7 @@
         /*contact*/
         .contact-list{color: white;font-weight: 500;}
         .contact-list span{color: #b53636;}
-        .contact{ background:url("img/contact/联系我们.png") center no-repeat;background-size: 100% 280%;min-height: 400px;margin-bottom: 0;}
+        .contact{ background:url("img/contact/teccantactimg.png") center no-repeat;min-height: 400px;margin-bottom: 0;}
 
         @media (max-width: 768px) {
             .contact{background-size: 100% 200%;min-height:200px;}
