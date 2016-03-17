@@ -1,8 +1,8 @@
 
 </section>
 
-<div class="container-fluid visible-sm visible-xs" style="margin-bottom: 20px;">
-    <div class="row">
+<div class="container-fluid" style="margin-bottom: 20px;">
+    <div class="row visible-sm visible-xs">
         <!--微信公众号以及联系方式start-->
 
         <h5 class="text-center" style="color:white">联系我们</h5>
@@ -22,16 +22,15 @@
 
         <!--微信公众号以及联系方式end-->
 
-
     </div>
-    <hr style="margin: 0;border-top: 1px solid #5a5a5a;">
-    <div class="row" style="padding:15px 15px 25px 15px ;">
+    <hr class="row visible-sm visible-xs" style="margin: 0;border-top: 1px solid #5a5a5a;">
+    <div style="padding:15px 15px 25px 15px ;">
         <h5 class="text-center" style="margin: 15px 0;color:white;">关注我们的官方微博，了解最新豪车俱乐部动态</h5>
         <div class="center-block text-center"><a href="http://weibo.com/13gydz?profile_ftype=1&is_all=1#_rnd1451270513481" target="_blank" class="btn btn-myself"><img src="img/contact/微博图标.png"><span style="vertical-align:bottom;">TEC引擎俱乐部官方微博</span></a></div>
     </div>
-    <hr style="  margin:0;  border-top: 1px solid #5a5a5a;">
+    <hr class=" visible-sm visible-xs" style="  margin:0;  border-top: 1px solid #5a5a5a;">
 
-    <div class="row" style="margin-top: 20px;">
+    <div class="row visible-sm visible-xs" style="margin-top: 20px;">
 
         <ul class="list-inline footer-lists text-center">
 
@@ -44,36 +43,21 @@
             <li><a href="">最新活动</a></li>-->
         </ul>
     </div>
-    <div class="row" style="margin-top: 20px;">
 
-        <div class="visible-md visible-lg">
-            <h5 class="text-center text-bold" style="margin: 15px 0;">关注我们的官方微博，了解最新豪车俱乐部动态</h5>
-            <div class="center-block text-center"><a href="http://weibo.com/13gydz?profile_ftype=1&is_all=1#_rnd1451270513481" target="_blank" class="btn btn-danger btn-myself"><img src="img/contact/微博图标.png"><span style="vertical-align:bottom;">TEC引擎俱乐部官方微博</span></a></div>
-        </div>
-
-    </div>
-    <div class="row">
-
+    <div class="row visible-sm visible-xs">
         <p class="col-lg-12 small copyright-text text-center" style="margin-top: 20px;color:gray;">苏州遇见文化传媒有限公司版权所有&copy;2015-<?=date('Y',time())?>&nbsp;&nbsp;</p>
         <div class="text-center"><a href="http://yujianchuanmei.cn"><img class="img-responsive center-block" style="width: 60px;" src="img/gai1/yujian-logo.png"></a></div>
-
     </div>
-
-
 
 </div>
 
-<footer class="tm-footer" style="margin-top: 20px;">
+<footer class="tm-footer">
     <div class="container">
-     <!--   <div class="visible-md visible-lg">
-            <h5 class="text-center text-bold" style="margin: 15px 0;">关注我们的官方微博，了解最新豪车俱乐部动态</h5>
-            <div class="center-block text-center"><a href="http://weibo.com/13gydz?profile_ftype=1&is_all=1#_rnd1451270513481" target="_blank" class="btn btn-danger btn-myself"><img src="img/contact/微博图标.png"><span style="vertical-align:bottom;">TEC引擎俱乐部官方微博</span></a></div>
-        </div>-->
         <div class="row tm-copyright">
-      <!--      <p class="col-lg-12 small copyright-text text-center" style="margin-top: 20px;">苏州遇见文化传媒有限公司版权所有&copy;2015-<?/*=date('Y',time())*/?>&nbsp;&nbsp;</p>
-         <div class="text-center"><img class="img-responsive center-block" style="width: 80px;" src="img/gai1/yujian-logo.png"></div>
--->
-            <h5 style="margin-top: 0;text-align: center;">www.tecclub.cn</h5>
+            <p class="col-lg-12 small copyright-text text-center visible-lg visible-md" style="margin-top: 0px;margin-bottom: 50px;">苏州遇见文化传媒有限公司版权所有&copy;2015-<?=date('Y',time())?>&nbsp;&nbsp;</p>
+            <div class="text-center"><img class="img-responsive center-block visible-lg visible-md" style="width: 80px;" src="img/gai1/yujian-logo.png"></div>
+
+            <h5 class="visible-sm visible-xs" style="margin-top: 0;margin-bottom: 0;;text-align: center;">www.tecclub.cn</h5>
         </div>
 
     </div>

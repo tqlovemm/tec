@@ -203,7 +203,7 @@ body {
   text-transform: uppercase;
 }
 .templatemo-nav-container {
-  margin: 36px auto 0 auto;
+  margin: 45px auto 0 auto;
   max-width: 650px;
   overflow: hidden;
 }
@@ -467,13 +467,13 @@ body {
 
 /* Footer */
 footer.tm-footer {
-/*  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/footer-bg.jpg) no-repeat left top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/footer-bg.jpg) no-repeat left top;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer-bg.jpg) no-repeat left top;
   background: linear-gradient(
       rgba(0, 0, 0, 0.7), 
       rgba(0, 0, 0, 0.7)
     ), url(../img/footer-bg.jpg) no-repeat left top;
-  background-size: cover;*/
+  background-size: cover;
   color: #B4B4B4;
   padding-top: 50px;
 }
@@ -542,7 +542,7 @@ footer.tm-footer {
 .tm-copyright {
   background: url(../img/copyright-bg.png) no-repeat center bottom;
   background-size: contain;
-  height: 30px;
+
     padding:10px 0;
 }
 
@@ -942,7 +942,8 @@ ol.flex-control-nav { display: none; }
     background-size: cover;
     padding-bottom: 50px;
   }
-  .templatemo-header-img {
+    footer.tm-footer{background: none;}
+    .templatemo-header-img {
     max-width: 100%;
   }
   .templatemo-site-name {

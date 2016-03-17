@@ -110,7 +110,7 @@
 .services-content i{color:#b53636;margin-right: 10px;font-weight: bold;}
 .services-title-2{font-size: 14px;font-weight: normal;}
 .services-content{ background: rgba(255, 255, 255, 0.69);padding:30px 0;  }
-.templatemo-site-name{margin: 0 auto;}
+.templatemo-site-name{margin: 0 auto;width: 20%;}
 
 .contact-phone{width: 100%;height: 50px;background-color:  black;overflow: hidden;text-align: center;line-height: 50px;margin-bottom:10px;margin-top: 10px;margin-left: 0px;position: relative;}
 .contact-phone li{width: 33.5%;height: 100%;padding: 0;float:left;margin-left:-1px;}
@@ -121,9 +121,10 @@
 .contact-phone li a:hover{color: white;background-color: #1d1d1d;}
 .contact-phone span{width:1px;height:20px;margin-top: 15px;margin-left:-1px;margin-right:-1px;border-left:1px solid #464141;float:left;}
 
-.footer-lists a{padding:5px 8px;color:white;line-height:40px;text-align: center;}
+.footer-lists >li> a{padding:5px 8px;color:white;line-height:40px;text-align: center;}
 @media (max-width:768px) {
-    .templatemo-site-name{margin: 0;}
+
+    .templatemo-site-name{margin: 0;width:40%;}
     .about-slider .about-slider-img{padding:0;}
     .services-content, .services-block, .services-container-1{padding:5px;}
     .services-title-2{font-size: 14px;font-weight: 200;}
