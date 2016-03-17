@@ -55,7 +55,7 @@
     <div class="container">
         <div class="row tm-copyright">
             <p class="col-lg-12 small copyright-text text-center visible-lg visible-md" style="margin-top: 0px;margin-bottom: 50px;">苏州遇见文化传媒有限公司版权所有&copy;2015-<?=date('Y',time())?>&nbsp;&nbsp;</p>
-            <div class="text-center"><img class="img-responsive center-block visible-lg visible-md" style="width: 80px;" src="img/gai1/yujian-logo.png"></div>
+            <div class="text-center"><a href="http://yujianchuanmei.cn"><img class="img-responsive center-block visible-lg visible-md" style="width: 80px;" src="img/gai1/yujian-logo.png"></a></div>
 
             <h5 class="visible-sm visible-xs" style="margin-top: 0;margin-bottom: 0;;text-align: center;">www.tecclub.cn</h5>
         </div>
