@@ -55,7 +55,7 @@
     <div class="row">
 
         <p class="col-lg-12 small copyright-text text-center" style="margin-top: 20px;color:gray;">苏州遇见文化传媒有限公司版权所有&copy;2015-<?=date('Y',time())?>&nbsp;&nbsp;</p>
-        <div class="text-center"><img class="img-responsive center-block" style="width: 60px;" src="img/gai1/yujian-logo.png"></div>
+        <div class="text-center"><a href="http://yujianchuanmei.cn"><img class="img-responsive center-block" style="width: 60px;" src="img/gai1/yujian-logo.png"></a></div>
 
     </div>
 
