@@ -60,11 +60,5 @@
         </div>
       </div>
       <img class="img-responsive center-block" src="img/join/join.png">
-      <!--banner-->
-      <div class="tm-banner">
-        <h2 class="tm-banner-title">TEC引擎俱乐部</h2>
-        <p class="tm-banner-description"><span class="text-uppercase">Advocate the quality of life and enjoy the taste of life</span><br>
-          Maserati  Aston Martin  Ferrari Lamborghini  Bentley Porsche Rolls-royce  Maybach Pagani Bugatti Koenigsegg</p>
-        <a href="#" class="tm-banner-link"><i style="color: white;" class="glyphicon glyphicon-eject"></i></a>
-      </div>
+
    <?php include 'footer.php';?>

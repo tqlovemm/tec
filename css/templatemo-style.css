@@ -175,7 +175,7 @@ body {
 
 /* Header */
 .templatemo-top-section {
-  background: url(../img/welcome-bg.jpg) top center no-repeat;
+  /*background: url(../img/welcome-bg.jpg) top center no-repeat;*/
   background-size: 100% 628px;
   margin-bottom: 0px;
 }
@@ -215,7 +215,7 @@ body {
 .templatemo-nav li a {
   color: white;
   font-weight: 300;
-  padding: 15px 35px;
+  padding: 10px 25px;
   width: 124px;
   display: inline-block;
   box-sizing: border-box;
@@ -543,6 +543,7 @@ footer.tm-footer {
   background: url(../img/copyright-bg.png) no-repeat center bottom;
   background-size: contain;
   height: 96px;
+    padding:10px 0;
 }
 
 /* Gallery page */
@@ -951,25 +952,26 @@ ol.flex-control-nav { display: none; }
   .templatemo-nav { display: none; }
   .templatemo-nav li { float: none; }
   .mobile-menu-icon {
-   background-color: rgba(218, 59, 59, 0.6);
+
    color: white;
    cursor: pointer;
    display: block;
-   padding: 10px 15px;
-   position: fixed;
+   position: absolute;
    top: 10px;
    right: 10px;
    z-index: 1000;
  }
  .templatemo-nav-container {
+     width:100%;
+     text-align: center;
     height: auto;
     position: fixed;
     z-index: 1000;
     top: 50px;
-    right: 10px;
+
   }
   .templatemo-nav-container {
-   background-color: rgba(0,0,0,0.6);
+   background-color: #000;
    margin-top: 0;
    margin-right: 0;
   }
@@ -979,6 +981,11 @@ ol.flex-control-nav { display: none; }
   .templatemo-nav li a {
    display: block;
    padding: 10px 15px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: 500;
+
+
   }
   .tm-banner {
     -webkit-box-orient: vertical;
@@ -1003,7 +1010,9 @@ ol.flex-control-nav { display: none; }
   }
   .about-slider-description {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 0;
+
+      padding:10px;
   }
   .about-page .welcome-title-2 {
     font-size: 28px;
@@ -1043,7 +1052,7 @@ ol.flex-control-nav { display: none; }
 @media screen and (max-width: 500px) {
   .templatemo-site-name {
     font-size: 40px;
-    padding-top: 60px;
+      width: 40%;
   }
 }
 

@@ -7,8 +7,9 @@
                     <ul class="slides">
                         <li>
                             <div class="about-slider">
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                    <img src="img/about/1.jpg" class="img-responsive center-block" alt="Image">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 about-slider-img">
+                                    <img src="img/about/1.jpg" class="img-responsive center-block visible-lg visible-md" alt="Image">
+                                    <img src="img/gai1/jianjie.jpg" class="img-responsive center-block visible-xs visible-sm" alt="Image">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                                     <h2 class="text-uppercase welcome-title">
@@ -21,8 +22,9 @@
                         </li>
                         <li>
                             <div class="about-slider">
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                    <img src="img/about/5.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部活动" title="TEC引擎俱乐部活动">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 about-slider-img">
+                                    <img src="img/about/5.jpg" class="img-responsive center-block visible-lg visible-md" alt="TEC引擎俱乐部活动" title="TEC引擎俱乐部活动">
+                                    <img src="img/gai1/huodong.jpg" class="img-responsive center-block visible-xs visible-sm" alt="TEC引擎俱乐部活动" title="TEC引擎俱乐部活动">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                                     <h2 class="text-uppercase welcome-title">
@@ -38,8 +40,9 @@
                         </li>
                         <li>
                             <div class="about-slider">
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                    <img src="img/about/6.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部租赁" title="TEC引擎俱乐部租赁">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 about-slider-img">
+                                    <img src="img/about/6.jpg" class="img-responsive center-block visible-lg visible-md" alt="TEC引擎俱乐部租赁" title="TEC引擎俱乐部租赁">
+                                    <img src="img/gai1/zulin.jpg" class="img-responsive center-block visible-sm visible-xs" alt="TEC引擎俱乐部租赁" title="TEC引擎俱乐部租赁">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                                     <h2 class="text-uppercase welcome-title">
@@ -53,8 +56,9 @@
                         </li>
                         <li>
                             <div class="about-slider">
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                    <img src="img/about/4.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部改装" title="TEC引擎俱乐部改装">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 about-slider-img">
+                                    <img src="img/about/4.jpg" class="img-responsive center-block visible-lg visible-md" alt="TEC引擎俱乐部改装" title="TEC引擎俱乐部改装">
+                                    <img src="img/gai1/gaizhuang.jpg" class="img-responsive center-block visible-sm visible-xs" alt="TEC引擎俱乐部改装" title="TEC引擎俱乐部改装">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                                     <h2 class="text-uppercase welcome-title">
@@ -68,8 +72,9 @@
                         </li>
                         <li>
                             <div class="about-slider">
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                    <img src="img/about/2.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 about-slider-img">
+                                    <img src="img/about/2.jpg" class="img-responsive center-block visible-lg visible-md" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
+                                    <img src="img/gai1/baoyang.jpg" class="img-responsive center-block visible-sm visible-xs" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                                     <h2 class="text-uppercase welcome-title">
@@ -86,8 +91,9 @@
                         </li>
                         <li>
                             <div class="about-slider">
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                    <img src="img/about/3.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 about-slider-img">
+                                    <img src="img/about/3.jpg" class="img-responsive center-block visible-lg visible-md" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
+                                    <img src="img/gai1/tuoguan.jpg" class="img-responsive center-block visible-sm visible-xs" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                                     <h2 class="text-uppercase welcome-title">
@@ -102,8 +108,9 @@
                         </li>
                         <li>
                             <div class="about-slider">
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                                    <img src="img/about/7.jpg" class="img-responsive center-block" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 about-slider-img">
+                                    <img src="img/about/7.jpg" class="img-responsive center-block visible-lg visible-md" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
+                                    <img src="img/gai1/xiaoshou.jpg" class="img-responsive center-block visible-sm visible-xs" alt="TEC引擎俱乐部保养" title="TEC引擎俱乐部保养">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
                                     <h2 class="text-uppercase welcome-title">

@@ -21,28 +21,28 @@
     <![endif]-->
     <style>
 /*index*/
-        .contact-phone{width: 100%;height: 50px;background-color: rgba(97, 95, 95, 0.5);;overflow: hidden;;text-align: center;line-height: 50px;margin-top: 10px;margin-bottom: 0;margin-left: 0px;}
+/*        .contact-phone{width: 100%;height: 50px;background-color: rgba(97, 95, 95, 0.5);;overflow: hidden;;text-align: center;line-height: 50px;margin-top: 10px;margin-bottom: 0;margin-left: 0px;}
         .contact-phone li{width: 49%;height: 100%;padding: 0;}
         .contact-phone li:hover{background-color: #F4A819;}
         .contact-phone li a{padding:15px 40px;text-decoration: none;color:white;}
-        .contact-phone li a:hover{color: white;}
+        .contact-phone li a:hover{color: white;}*/
 
 
-            .fa{font-size: 24px !important;}
+            .fa{font-size: 34px !important;}
             body{background-color: #000000;}
             .btn-myself{background-color: #080606;box-shadow: 0 0 10px #000;padding:5px 10px 10px 10px;}
             .btn-myself:hover{background-color: #1d1d1d;}
             .start-img{position: absolute;width: 100%;height: 100%;left: 0;top:0;z-index: 9;background: url('img/tecstratimg.jpg') center black;}
         @media (max-width: 768px) {
-            .start-img{background: url('img/320x480.png') center black no-repeat;}
-            .flexslider{ padding:0 10px; }
+            .start-img{background: url('img/320 480.jpg') center black no-repeat;}
+            .flexslider{ padding:0; }
             .about-page .templatemo-welcome {  margin-top: 10px;  padding-bottom: 0;  }
             .welcome-title-1,
-            .about-page .welcome-title-2{font-size: 18px;text-align: center;}
+            .about-page .welcome-title-2{font-size: 18px;text-align: center;line-height: 40px;}
             .flexslider .welcome-message{ line-height:1.5em;font-weight: 100;font-size: 13px;}
             .templatemo-top-section{padding-bottom: 0;}
             footer.tm-footer{padding-top: 0;}
-            .about-slider img{width: 250px;}
+            .about-slider img{width: 100%;}
             .flex-direction-nav a{top:25%;font-size: 30px;}
         }
 
@@ -67,10 +67,9 @@
         /*contact*/
         .contact-list{color: white;font-weight: 500;}
         .contact-list span{color: #b53636;}
-        .contact{ background:url("img/contact/teccantactimg.png") center no-repeat;min-height: 400px;margin-bottom: 0;}
 
         @media (max-width: 768px) {
-            .contact{background-size: 100% 200%;min-height:200px;}
+
 
         }
 
@@ -108,10 +107,25 @@
 .services-content i{color:#b53636;margin-right: 10px;font-weight: bold;}
 .services-title-2{font-size: 14px;font-weight: normal;}
 .services-content{ background: rgba(255, 255, 255, 0.69);padding:30px 0;  }
-@media (max-width:768px) {
+.templatemo-site-name{margin: 0 auto;}
 
+.contact-phone{width: 100%;height: 50px;background-color:  black;overflow: hidden;text-align: center;line-height: 50px;margin-bottom:10px;margin-top: 10px;margin-left: 0px;position: relative;}
+.contact-phone li{width: 33.5%;height: 100%;padding: 0;float:left;margin-left:-1px;}
+.contact-phone li:hover{background-color:#F7E5E5;}
+.contact-phone li a{padding:15px 38px;text-decoration: none;}
+.contact-phone li a img{width:25px;}
+.self-footer{}
+.contact-phone li a:hover{color: white;}
+.contact-phone span{width:1px;height:20px;margin-top: 15px;margin-left:-1px;margin-right:-1px;border-left:1px solid #464141;float:left;}
+
+.footer-lists a{padding:5px 8px;color:white;line-height:40px;text-align: center;}
+@media (max-width:768px) {
+    .templatemo-site-name{margin: 0;}
+    .about-slider .about-slider-img{padding:0;}
     .services-content, .services-block, .services-container-1{padding:5px;}
     .services-title-2{font-size: 14px;font-weight: 200;}
+    .templatemo-header{border-bottom: 3px solid #3a3a3a;padding-bottom: 10px;}
+    .templatemo-nav ul{padding-top:10px;padding-bottom: 40px;line-height: 40px;letter-spacing: 2px;}
 }
     </style>
 
@@ -127,25 +141,27 @@ if($a =="0" || $a=="6"){
 ?>
 <section class="templatemo-top-section">
     <div class="templatemo-header">
-        <img class="templatemo-header-img" src="img/header.png" alt="Header">
-        <img class="templatemo-site-name center-block" src="img/标志.png" alt="Logo">
+        <img class="templatemo-header-img visible-lg visible-md" src="img/header.png" alt="Header">
+        <img class="templatemo-site-name center-block" src="img/gai1/teclogo_gai.png" alt="Logo">
         <div class="mobile-menu-icon">
-            <i class="fa fa-bars"></i>
+            <i><img src="img/gai1/guide.png"></i>
         </div>
         <div class="templatemo-nav-container">
             <nav class="templatemo-nav">
                 <ul>
-                    <li><a <?php if($_SERVER['PHP_SELF']=='/index.php'){echo ' class="active" ';}?> href="index.php" title="首页">Home</a></li>
-                    <li><a <?php if($_SERVER['PHP_SELF']=='/services.php'){echo ' class="active" ';}?> href="services.php" title="服务">SERVICE</a></li>
-                    <li><a <?php if($_SERVER['PHP_SELF']=='/charter.php'){echo ' class="active" ';}?> href="charter.php" title="章程">CHARTER</a></li>
-                    <li><a <?php if($_SERVER['PHP_SELF']=='/join.php'){echo ' class="active" ';}?> href="join.php" title="加入我们">JOINUS</a></li>
-                    <li><a <?php if($_SERVER['PHP_SELF']=='/contact.php'){echo ' class="active" ';}?> href="contact.php" title="联系我们">CONTACT</a></li>
+                    <li><a <?php if($_SERVER['PHP_SELF']=='/index.php'){echo ' class="active" ';}?> href="index.php" title="首页">首页</a></li>
+                    <li><a <?php if($_SERVER['PHP_SELF']=='/services.php'){echo ' class="active" ';}?> href="services.php" title="服务">服务</a></li>
+                    <li><a <?php if($_SERVER['PHP_SELF']=='/charter.php'){echo ' class="active" ';}?> href="charter.php" title="章程">章程</a></li>
+                    <li><a <?php if($_SERVER['PHP_SELF']=='/join.php'){echo ' class="active" ';}?> href="join.php" title="加入我们">加入我们</a></li>
+                    <li><a <?php if($_SERVER['PHP_SELF']=='/contact.php'){echo ' class="active" ';}?> href="contact.php" title="联系我们">联系我们</a></li>
+                    <li><img style="width: 15%;" src="img/gai1/flag.png"></li>
                 </ul>
             </nav>
         </div>
     </div>
 
+<!--
     <ul class="list-inline contact-phone visible-sm visible-xs">
-        <li class="pull-left"><a href="tel://<?=$tel?>"><i class="glyphicon glyphicon-earphone"></i>   Phone</a></li>
+        <li class="pull-left"><a href="tel://<?/*=$tel*/?>"><i class="glyphicon glyphicon-earphone"></i>   Phone</a></li>
         <li class="pull-right"><a style="padding:15px 60px;" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1607962445&site=qq&menu=yes">QQ</a></li>
-    </ul>
+    </ul>-->
