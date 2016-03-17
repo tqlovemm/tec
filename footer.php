@@ -8,12 +8,17 @@
         <h5 class="text-center" style="color:white">联系我们</h5>
 
         <ul class="list-inline contact-phone">
-            <li><a href="tel://13312905958"><img src="./img/gai1/phone-top.png"></a></li>
+            <li><a href="tel://<?=$tel?>"><img src="./img/gai1/phone-top.png"></a></li>
             <span></span>
-            <li><a href="../images/weixin/3.jpg" data-lightbox="image" data-title="微信搜索公众号：心动三十一天" ><img src="./img/gai1/weichat-top.png"></a></li>
+            <li>
+                <a id="weichat-1" href="img/gai1/3FC8A207CF0E1EE73AC6689E5D2B85A3.png">
+                    <img src="./img/gai1/weichat-top.png">
+                </a>
+            </li>
             <span></span>
-            <li><a href="http://wpa.qq.com/msgrd?v=3&uin=8495167&site=qq&menu=yes" target="_blank" ><img src="./img/gai1/qq-top.png"></a></li>
+            <li><a href="http://wpa.qq.com/msgrd?v=3&uin=1607962445&site=qq&menu=yes" target="_blank" ><img src="./img/gai1/qq-top.png"></a></li>
         </ul>
+        <div id="credit"></div>
 
         <!--微信公众号以及联系方式end-->
 
@@ -60,9 +65,18 @@
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
 <script type="text/javascript" src="js/templatemo-script.js"></script>
 <script defer src="js/jquery.flexslider-min.js"></script><!-- FlexSlider -->
+<script type="text/javascript" src="js/jquery.imgbox.pack.js"></script>
+
 <script>
 
+    $(document).ready(function() {
+        $("#weichat-1").imgbox();
+
+
+    });
     $(window).load(function() {
+
+
 
             if(window.screen.availHeight<=768) {
 

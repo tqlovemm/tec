@@ -13,11 +13,14 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/templatemo-style.css" rel="stylesheet">
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+
     <![endif]-->
     <style>
 /*index*/
@@ -111,7 +114,7 @@
 
 .contact-phone{width: 100%;height: 50px;background-color:  black;overflow: hidden;text-align: center;line-height: 50px;margin-bottom:10px;margin-top: 10px;margin-left: 0px;position: relative;}
 .contact-phone li{width: 33.5%;height: 100%;padding: 0;float:left;margin-left:-1px;}
-.contact-phone li:hover{background-color:#F7E5E5;}
+.contact-phone li:hover{background-color:#383838;}
 .contact-phone li a{padding:15px 38px;text-decoration: none;}
 .contact-phone li a img{width:25px;}
 .self-footer{}
