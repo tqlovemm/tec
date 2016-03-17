@@ -84,12 +84,17 @@
 
                     if($('.templatemo-nav-container nav').css('display')=='block'){
 
-                        $('body').on('touchmove', function (event) {
+                        $('.templatemo-top-section').on('touchmove', function (event) {
                             event.preventDefault();
                         });
+
+                    }else {
+
+                        $(".templatemo-top-section").unbind("touchmove");
                     }
 
                 });
+
 
             }
         setTimeout(function(){
