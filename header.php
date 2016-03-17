@@ -118,7 +118,7 @@
 .contact-phone li a{padding:8px 36px;text-decoration: none;border-radius: 6px;}
 .contact-phone li a img{width:25px;}
 .self-footer{}
-.contact-phone li a:hover{color: white;background-color: rgba(128, 128, 128, 0.43);}
+.contact-phone li a:hover{color: white;background-color: #1d1d1d;}
 .contact-phone span{width:1px;height:20px;margin-top: 15px;margin-left:-1px;margin-right:-1px;border-left:1px solid #464141;float:left;}
 
 .footer-lists a{padding:5px 8px;color:white;line-height:40px;text-align: center;}
