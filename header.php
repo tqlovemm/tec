@@ -33,7 +33,7 @@
 
             .fa{font-size: 34px !important;}
             body{background-color: #000000;}
-            .btn-myself{background-color: #080606;box-shadow: 0 0 10px #000;padding:5px 10px 10px 10px;}
+            .btn-myself{color: #fff;box-shadow: 0 0 10px #000;padding:5px 10px 10px 10px;}
             .btn-myself:hover{background-color: #1d1d1d;}
             .start-img{position: absolute;width: 100%;height: 100%;left: 0;top:0;z-index: 9;background: url('img/tecstratimg.jpg') center black;}
         @media (max-width: 768px) {
@@ -114,11 +114,11 @@
 
 .contact-phone{width: 100%;height: 50px;background-color:  black;overflow: hidden;text-align: center;line-height: 50px;margin-bottom:10px;margin-top: 10px;margin-left: 0px;position: relative;}
 .contact-phone li{width: 33.5%;height: 100%;padding: 0;float:left;margin-left:-1px;}
-.contact-phone li:hover{background-color:#383838;}
-.contact-phone li a{padding:15px 38px;text-decoration: none;}
+.contact-phone li:hover{background-color:transparent;}
+.contact-phone li a{padding:8px 36px;text-decoration: none;border-radius: 6px;}
 .contact-phone li a img{width:25px;}
 .self-footer{}
-.contact-phone li a:hover{color: white;}
+.contact-phone li a:hover{color: white;background-color: rgba(128, 128, 128, 0.43);}
 .contact-phone span{width:1px;height:20px;margin-top: 15px;margin-left:-1px;margin-right:-1px;border-left:1px solid #464141;float:left;}
 
 .footer-lists a{padding:5px 8px;color:white;line-height:40px;text-align: center;}
@@ -157,7 +157,7 @@ if($a =="0" || $a=="6"){
                     <li><a <?php if($_SERVER['PHP_SELF']=='/charter.php'){echo ' class="active" ';}?> href="charter.php" title="章程">章程</a></li>
                     <li><a <?php if($_SERVER['PHP_SELF']=='/join.php'){echo ' class="active" ';}?> href="join.php" title="加入我们">加入我们</a></li>
                     <li><a <?php if($_SERVER['PHP_SELF']=='/contact.php'){echo ' class="active" ';}?> href="contact.php" title="联系我们">联系我们</a></li>
-                    <li><img style="width: 15%;" src="img/gai1/flag.png"></li>
+                    <li class="visible-xs visible-sm"><img style="width: 15%;" src="img/gai1/flag.png"></li>
                 </ul>
             </nav>
         </div>
