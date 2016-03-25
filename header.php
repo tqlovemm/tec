@@ -132,6 +132,15 @@
     .templatemo-nav ul{padding-top:10px;padding-bottom: 40px;line-height: 40px;letter-spacing: 2px;}
 }
     </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?ce6d9638a1df15f256d76d83da5e5b1e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
 </head>
 <body class="about-page">
