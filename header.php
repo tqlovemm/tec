@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="TEC引擎豪车俱乐部 豪车俱乐部 超跑俱乐部 玛莎拉蒂车友会 法拉利车友会" />
     <meta name="description" content="TEC引擎俱乐部是目前中国最神秘低调的豪车主题俱乐部，运营玛莎拉蒂、法拉利等品牌豪车车友会，并举办各种品质活动以及提供顶级生活方式服务。" />
-   
+    <meta name="baidu-site-verification" content="G1LVZX7Pfu" />
     <link rel="shortcut icon" href="img/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
